@@ -1,0 +1,13 @@
+.footer--center {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer--links a{
+  display: inline-block;
+  margin: 5px;
+  font-size: 11px;
+}

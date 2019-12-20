@@ -1,0 +1,81 @@
+{
+  "name": "devbit",
+  "version": "1.0.0",
+  "description": "DeBit is a community for software developers that consists of a history of messaging and integration and control version management in real time.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "test": "mocha 'test/**/*.js' --recursive --reporter mocha-junit-reporter --timeout 60000 --exit"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test",
+      "pre-push": "npm run test"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-eclipse/devbit.git"
+  },
+  "keywords": [
+    "devbit",
+    "platform",
+    "community",
+    "messaging"
+  ],
+  "author": {
+    "name": "Chris Michael",
+    "email": "chrisperezsantiago1@gmail.com",
+    "url": "http://personal-porfolio.chrismichael.now.sh",
+    "social": {
+      "github": "https://github.com/ChrisMichaelPerezSantiago",
+      "twitter": "https://twitter.com/Chris5855M"
+    }
+  },
+  "contributors": [
+    {
+      "name": "Chris Michael",
+      "url": "https://github.com/ChrisMichaelPerezSantiago",
+      "reason": "Project Leader, and Developer"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10.16.x",
+    "npm": ">= 6.9.x"
+  },
+  "bugs": {
+    "url": "https://github.com/team-eclipse/devbit/issues"
+  },
+  "homepage": "https://github.com/team-eclipse/devbit#readme",
+  "dependencies": {
+    "@banzaicloud/service-tools": "^2.0.21",
+    "@hapi/joi": "^16.1.7",
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compose-middleware": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^6.2.1",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3",
+    "socket.io": "^2.3.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "eslint": "^6.5.1",
+    "husky": "^3.0.9",
+    "mocha-junit-reporter": "^1.23.1"
+  }
+}
