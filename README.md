@@ -2,6 +2,16 @@
 
 ![node version](https://img.shields.io/badge/node->=10.16.x-brightgreen.svg)
 ![npm version](https://img.shields.io/badge/npm->=6.9.x-brightgreen.svg)
+<a href="https://github.com/ChrisMichaelPerezSantiago/devbit/graphs/commit-activity">
+  <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+</a>
+<a href="https://github.com/ChrisMichaelPerezSantiago/devbit/blob/master/LICENSE">
+  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
+</a>
+[![Build Status](https://travis-ci.com/ChrisMichaelPerezSantiago/devbit.svg?branch=master)](https://travis-ci.com/ChrisMichaelPerezSantiago/devbit)
+
+<img src="https://img.shields.io/github/stars/ChrisMichaelPerezSantiago/devbit?style=social" alt="">
+
 
 > _DevBit is a community for software developers that consists of a history of messaging and integration and control version management in real time._
 
