@@ -17,6 +17,7 @@
 
 ---
 
+<img src="./assets/img/DevBitLogo.png" style="display: block; margin-left: auto; margin-right: auto;">
 
 ## **:wrench: Developer usage**
 
