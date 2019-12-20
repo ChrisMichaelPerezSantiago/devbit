@@ -27,26 +27,6 @@ Then:
 
 ---
 
-### **Installation**
-
-In order to install the project and all dependencies, enter in the project folder and run `npm install`
-
----
-
-### Start the project
-
-```bash
-npm start
-```
-
-### Test the project
-
-```bash
-npm test
-```
-
----
-
 
 ## **:handshake: Contributing**
 
@@ -89,4 +69,4 @@ _*Chris Michael*_
 
 ---
 
-Copyright © 2019 [DevBit](https://github.com/team-eclipse/devbit).
+Copyright © 2019 [DevBit](https://github.com/ChrisMichaelPerezSantiago/devbit).
