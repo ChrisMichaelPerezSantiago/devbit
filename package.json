@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/team-eclipse/devbit.git"
+    "url": "https://github.com/ChrisMichaelPerezSantiago/devbit"
   },
   "keywords": [
     "devbit",
@@ -46,9 +46,9 @@
     "npm": ">= 6.9.x"
   },
   "bugs": {
-    "url": "https://github.com/team-eclipse/devbit/issues"
+    "url": "https://github.com/ChrisMichaelPerezSantiago/devbit/issues"
   },
-  "homepage": "https://github.com/team-eclipse/devbit#readme",
+  "homepage": "https://github.com/ChrisMichaelPerezSantiago/devbit#readme",
   "dependencies": {
     "@banzaicloud/service-tools": "^2.0.21",
     "@hapi/joi": "^16.1.7",
