@@ -64,6 +64,13 @@
     font-size: 5em;
     color: #eee;
   }
+
+  a:hover, 
+  a:visited, 
+  a:link, 
+  a:active{
+    text-decoration: none !important;
+  }
   
   input {
     background-image: none;
