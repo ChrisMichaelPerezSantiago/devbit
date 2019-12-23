@@ -1,7 +1,9 @@
 <template>
   <div class="align">
     <div class="grid">
-      <h1 class="title">DevBit</h1>
+      <router-link :to="{name: 'home'}">
+        <h1 class="title">DevBit</h1>
+      </router-link>
       <form @submit.prevent="login()" method="POST" class="form login">
         <div class="form__field">
           <label for="login__username">
@@ -36,9 +38,9 @@
       </p>
       <p class="text--center">
         Not a member? 
-        <a href="#">
+        <router-link :to="{name: 'Register'}">
         Sign up now
-        </a>
+        </router-link>
         <svg class="icon">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/images/icons.svg#arrow-right">
           </use>
