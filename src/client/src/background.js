@@ -25,7 +25,7 @@ function createWindow () {
   if (process.env.WEBPACK_DEV_SERVER_URL) {
     // Load the url of the dev server if in development mode
     win.loadURL(process.env.WEBPACK_DEV_SERVER_URL)
-    if (!process.env.IS_TEST) win.webContents.openDevTools()
+    //if (!process.env.IS_TEST) win.webContents.openDevTools()
   } else {
     createProtocol('app')
     // Load the index.html when not in development
@@ -38,6 +38,8 @@ function createWindow () {
   win.on('closed', () => {
     win = null
   })
+
+  win.setMenu(null);
 }
 
 // Quit when all windows are closed.
