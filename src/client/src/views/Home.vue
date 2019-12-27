@@ -23,13 +23,13 @@
 </template>
 
 <script>
-  import {onMounted} from '@vue/composition-api';
-  import {focusableChannelsIcons} from '../utils/index';
-
-  export default {  
-    name: 'home', 
-    setup(){
-      onMounted(() =>{
+  import { onMounted } from "@vue/composition-api";
+  import { focusableChannelsIcons } from "../utils/index";
+  
+  export default {
+    name: "home",
+    setup() {
+      onMounted(() => {
         focusableChannelsIcons();
       });
     }
