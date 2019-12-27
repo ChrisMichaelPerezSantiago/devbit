@@ -21,4 +21,4 @@ const config = {
 
 ```
 
-*For more information about the configuration verify [config.js](../src/config.js)*
+*For more information about the configuration verify [config.js](../../src/config.js)*
