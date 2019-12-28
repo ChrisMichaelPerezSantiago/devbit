@@ -8,6 +8,7 @@
 <a href="https://github.com/ChrisMichaelPerezSantiago/devbit/blob/master/LICENSE">
   <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
 </a>
+
 [![Build Status](https://travis-ci.com/ChrisMichaelPerezSantiago/devbit.svg?branch=master)](https://travis-ci.com/ChrisMichaelPerezSantiago/devbit)
 
 <img src="https://img.shields.io/github/stars/ChrisMichaelPerezSantiago/devbit?style=social" alt="">
@@ -17,7 +18,7 @@
 
 ---
 
-<img src="./assets/img/DevBitLogo.png" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="./assets/img/DevBitLogo.png" style="width:100%">
 
 ## **:wrench: Developer usage**
 
@@ -28,8 +29,8 @@
 
 Before cloning the repo **be sure** you have installed:
 
-- [**NODE**](https://www.google.com/search?q=how+to+install+node) (version >= 10.16.x)
-- [**NPM**](https://www.google.com/search?q=how+to+install+npm) (version >= 6.9.x)
+- [*node*](https://www.google.com/search?q=how+to+install+node) (version >= 10.16.x)
+- [*npm*](https://www.google.com/search?q=how+to+install+npm) (version >= 6.9.x)
 
 Then:
 
