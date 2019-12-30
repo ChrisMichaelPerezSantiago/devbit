@@ -15,7 +15,7 @@
 | bcbabd3 | files folder created. (3 days ago)                                                                      | Chris Michael |
 | 3f1c5d3 | env.md file moved to folder files (3 days ago)                                                          | Chris Michael |
 | 3989628 | reference to the diary path of the project added in the README.md (3 days ago)                          | Chris Michael |
-| e98698a | Development Diary `|` README.md created (3 days ago)                                                    | Chris Michael |
+| e98698a | Development Diary  README.md created (3 days ago)                                                       | Chris Michael |
 | b8f04c3 | views/Home.vue -> Indentation of 2 space (3 days ago)                                                   | Chris Michael |
 | b80818c | Development Diary Folder Created -> 'env.md' (3 days ago)                                               | Chris Michael |
 | 921a18b | views/Home.vue -> Indentation of 2 space (3 days ago)                                                   | Chris Michael |
