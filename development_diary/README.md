@@ -7,7 +7,7 @@
 > *[List of tools](./files/technologies.md)*
 
 ## 🌳 *Logs*
-> *[List of logs](./logs/index.md)*
+> *[List of logs](./log/index.md)*
 
 ## 🔒 *MongoDB Configuration*
 > *[Environment Variables](./files/env.md)*
